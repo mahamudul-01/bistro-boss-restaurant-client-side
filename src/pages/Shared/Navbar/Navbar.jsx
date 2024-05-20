@@ -11,11 +11,26 @@ const Navbar = () => {
             </Link>
 
         </li>
+
+        <li>
+            <Link to='/menu'>
+                Menu
+            </Link>
+
+        </li>
+        <li>
+            <Link to='/order/salad'>
+                Order Food
+            </Link>
+
+        </li>
+
+        
     
     </>
   return (
     <>
-      <div className="navbar bg-black fixed z-10 opacity-50  text-white max-w-screen-2xl shadow-lg">
+      <div className="navbar bg-black fixed z-50 opacity-50  text-white max-w-screen-2xl mx-auto shadow-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
