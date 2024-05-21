@@ -66,7 +66,7 @@ const Menu = () => {
       </SectionTitle>
       <MenuCategory items={dessert}> </MenuCategory>
       <div className=" text-center">
-      <Link to='/order/desert' className="btn btn-outline text-center   uppercase mx-auto mb-6 border-0  border-b-4 mt-4 text-slate-900">Order Now</Link>
+      <Link to='/order/dessert' className="btn btn-outline text-center   uppercase mx-auto mb-6 border-0  border-b-4 mt-4 text-slate-900">Order Now</Link>
       </div>
       {/* pizza */}
       <Cover

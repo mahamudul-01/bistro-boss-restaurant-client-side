@@ -19,8 +19,14 @@ const Navbar = () => {
 
         </li>
         <li>
-            <Link to='/order/salad'>
+            <Link to='/order'>
                 Order Food
+            </Link>
+
+        </li>
+        <li>
+            <Link to='/login'>
+                Login
             </Link>
 
         </li>
@@ -29,8 +35,8 @@ const Navbar = () => {
     
     </>
   return (
-    <>
-      <div className="navbar bg-black fixed z-50 opacity-50  text-white max-w-screen-2xl mx-auto shadow-lg">
+    <div className="mx-auto ">
+      <div className="navbar bg-black fixed  z-10 opacity-50   text-white  shadow-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -67,7 +73,7 @@ const Navbar = () => {
           <a className="btn">Button</a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
